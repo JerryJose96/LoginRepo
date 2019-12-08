@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import jerjose.app.model.User;
+import jerjose.app.service.UserService;
 
 @Controller
 public class RegistrationController {

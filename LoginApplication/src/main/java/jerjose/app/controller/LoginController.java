@@ -12,6 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import jerjose.app.model.Login;
 import jerjose.app.model.User;
+import jerjose.app.service.UserService;
 
 @Controller
 public class LoginController {
