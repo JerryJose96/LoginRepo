@@ -34,7 +34,7 @@ public class LoginController {
 		User user = userService.validateUser(login);
 		
 		if (user != null) {
-			mav = new ModelAndView("Welcome");
+			mav = new ModelAndView("welcome");
 			mav.addObject("firstname", user.getFirstname());
 		}
 		else {
